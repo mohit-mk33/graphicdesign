@@ -468,6 +468,7 @@
             font-size: 15px;
             margin-bottom: 0px;
             text-align: justify;
+            padding-left: 10px;
         }
         .frontd{
             padding: 0px 10px 1px 10px;
@@ -1469,7 +1470,9 @@
          .scopetitle{
             font-size: 30px;
             text-align: justify;
+            padding-left: 10px;
          }
+
          .show_mobile{
             display:block !important;
             color: #ffffff;

@@ -68,6 +68,7 @@
         margin-top: -78px;
         line-height: 1;
     }
+
     .title-details{
         font-size: 18px;
         line-height: 1.4;
@@ -372,9 +373,7 @@
         .header-img-section{
             margin-bottom: 91px;
         }
-        .header_hidden_pc{
-            display: none;
-        }
+        
         .header_hidden{
             display: block;
         }
@@ -401,7 +400,7 @@
             font-size: 21px;
         }
         .header_hidden_pc{
-            display: none;
+            display: block;
         }
         .web2header{
             margin-top: -60px;
@@ -430,7 +429,7 @@
             font-weight: bold;
         }
         .header_hidden_pc{
-            display: none;
+            display: block;
         }
         .header_hidden{
             display: block;
@@ -454,9 +453,10 @@
             margin-top: -60px;
         }
         .web2subtitle{
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
             margin-top: -30px;
+            text-align: justify;
         }
         .web2list{
             padding-left:20px ;
@@ -467,6 +467,7 @@
         .scopesubtitle{
             font-size: 15px;
             margin-bottom: 0px;
+            text-align: justify;
         }
         .frontd{
             padding: 0px 10px 1px 10px;
@@ -507,6 +508,7 @@
     }
     .highlights-graphic{
         padding-top: 30px ;
+        padding-bottom: 30px;
     }
     .highlights-container{
         display: flex;
@@ -591,6 +593,9 @@
 /* 5. FEATURES SECTION */
     .features-section{
         padding: 79px 0 0px 0; 
+    }
+    .factorstitle{
+        margin-top: 40px;
     }
     .features-container{
         display: flex;
@@ -926,6 +931,9 @@
         z-index: -1000;
 
 
+    }
+    .perfection-jobroles{
+        margin-top: 0px !important;
     }
     .perfection-bg-section-left{
         position: absolute;
@@ -1382,7 +1390,7 @@
         }
         .web2header{
             margin-top: -60px;
-            font-size: 28px;
+            font-size: 27px;
         }
         .highlights{
             padding: 50px 0;
@@ -1460,6 +1468,7 @@
          }
          .scopetitle{
             font-size: 30px;
+            text-align: justify;
          }
          .show_mobile{
             display:block !important;
@@ -1542,6 +1551,7 @@
     padding: 11px; color: #fff; 
     text-align: center; 
     font-family: 'Montserrat', sans-serif; font-weight: 400;
+    margin-top: 30px;
 }
 .container-again1{
    background:  #EC41FF; 
@@ -1558,7 +1568,7 @@
 
 #unique1{
    margin-top: 93px;
-   margin-bottom: -476px;
+  /* margin-bottom: -476px;*/
 }
 
  #newbie, #Earlycareer, #experienced, #proffes {
@@ -1598,7 +1608,7 @@
             color: #fff;
             line-height: 1.6;
             letter-spacing: 1px;
-            margin-top: 50px;
+            margin-top: 30px;
             margin-left: 39px;
             margin-right: 40px;
         }
@@ -1616,7 +1626,7 @@
 
 
 .factorsection{
-    padding-top: 0px;
+    padding-top: 50px;
 }
 @media screen and max-width(572px){
 #unique2{
@@ -1651,17 +1661,18 @@
             font-weight: bold;
         }
         .factorsection{
-            padding-top: 0px;
+            padding-top: 530px;
         }
         .factorstitle{
-            font-size: 22px;
+            font-size: 27px;
             margin-top: -500px;
             margin-bottom: 11px;
+            text-align: left;
         }
         .factorssubtitle{
-            font-size: 15px;
+            font-size: 16px;
             margin-bottom: 5px;
-            margin-left: -16px;
+         text-align: justify;
         }
         .factors2section{
             margin-left: -30px;
@@ -1677,9 +1688,9 @@
          .animationhid{
             display: block;
         }
-        .web2hiddenpart{
+        /*.web2hiddenpart{
             display: none;
-        }
+        }*/
         .desigsub{
             margin-left: 14px;
             margin-right: 23px;
@@ -1690,7 +1701,7 @@
             line-height: 1.5;
             font-weight: lighter;
             padding-right: 20px;
-            padding-top: 77px;
+            padding-top: 38px;
 
 
 
